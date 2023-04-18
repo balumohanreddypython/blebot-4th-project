@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f543c8b2e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="4th page.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/McAfee_logo_%282017%29.svg/2560px-McAfee_logo_%282017%29.svg.png" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link active" id="navItem1" href="#">
+                        Products
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#" id="navItem2">Features </a>
+                    <a class="nav-link" href="#" id="navItem3">About Us </a>
+                    <a class="nav-link" href="#" id="navItem4">Resources</a>
+                    <a class="nav-link" href="#" id="navItem4">Why McAfee</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="individualPlan">
+        <div class="d-flex flex-row">
+            <div class="d-flex flex-column">
+                <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="images">
+                <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="images">
+                <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="images">
+                <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="images">
+            </div>
+            <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="big-image">
+            <div class="introduction">
+                <span>NEW</span>
+                <h1 class="intro">Introducing</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/McAfee_logo_%282017%29.svg/2560px-McAfee_logo_%282017%29.svg.png" class="logo" />
+                <h1 class="intro">Identity protection and privacy for your digital life</h1>
+                <div class="d-flex flex-row">
+                    <button class="button"> Individual</button>
+                    <button class="buttonfamily" onclick="display('familyPlan')"> Family</button>
+
+                </div>
+                <div class="d-flex flex-row boxes">
+                    <h1 class="advance">Advance</h1><button class="bestbutton">BEST VALUE</button>
+                    <p class="discount"><span class="price">$84.99</span> /yr* <br>$199.99 <span class="save">save $115.00</span></p>
+                </div>
+                <div class="d-flex flex-row boxes">
+                    <h1 class="advance">Advance</h1>
+                    <div class="price-details">
+                        <p class="discount"><span class="price">$84.99</span> /yr* <br>$199.99 <span class="save">save $115.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="familyPlan">
+        <div class="d-flex flex-row">
+            <div class="d-flex flex-column">
+                <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="images">
+                <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="images">
+                <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="images">
+                <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707850/guy-enjoying-music-young-trendy-man-dancing-listening-headphones-over-dark-gray-background-studio-shot-54341891_mxv4un.jpg" class="images">
+            </div>
+            <img src="https://res.cloudinary.com/db0esfgxe/image/upload/v1681707920/smiling-husband-wife-relax-together-using-cellphone-young-sofa-living-room-modern-gadget-happy-millennial-couple-rest-169723616_gtjvsz.jpg" class="big-image">
+            <div class="introduction">
+                <span>NEW</span>
+                <h1 class="intro">Introducing</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/McAfee_logo_%282017%29.svg/2560px-McAfee_logo_%282017%29.svg.png" class="logo" />
+                <h1 class="intro">Identity protection and privacy for your digital life</h1>
+                <div class="d-flex flex-row">
+                    <button class="button" onclick="display('individualPlan')"> Individual</button>
+                    <button class="buttonfamily"> Family</button>
+
+                </div>
+                <div class="d-flex flex-row boxes">
+                    <h1 class="advance">Advance</h1><button class="bestbutton">BEST VALUE</button>
+                    <p class="discount"><span class="price">$84.99</span> /yr* <br>$199.99 <span class="save">save $115.00</span></p>
+                </div>
+                <div class="d-flex flex-row boxes">
+                    <h1 class="advance">Advance</h1>
+                    <div class="price-details">
+                        <p class="discount"><span class="price">$84.99</span> /yr* <br>$199.99 <span class="save">save $115.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
+    height: 20px;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.images {
+    height: 50px;
+    width: 50px;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+.big-image {
+    height: 280px;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+
+.introduction {
+    margin-left: 10px;
+}
+
+.intro {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.button {
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-color: skyblue;
+    background-color: #ffffff;
+    padding: 2px;
+    margin-left: 2px;
+    text-align: left;
+}
+
+.buttonfamily {
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-color: skyblue;
+    background-color: #ffffff;
+    padding: 2px;
+    margin-left: 50px;
+    text-align: right;
+
+}
+
+.bestbutton {
+    width: 70px;
+    height: 25px;
+    font-size: 10px;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: red;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+
+
+}
+
+.discount {
+    font-size: 8px;
+    margin-top: 10px;
+
+}
+
+.save {
+    color: red;
+
+
+}
+
+.boxes {
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.price-details {
+    text-align: right;
+    margin-left: 58px;
+    padding: 8px;
+
+
+}
+
+.advance {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 10px;
+    padding: 10px;
+}
